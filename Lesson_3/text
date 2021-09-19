@@ -1,0 +1,19 @@
+Microsoft Windows [Version 10.0.18362.295]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2019. Все права защищены.
+
+(base) C:\Users\Евгений\Desktop\Basic_Python>cd v_333
+
+(base) C:\Users\Евгений\Desktop\Basic_Python\v_333>cd scripts
+
+(base) C:\Users\Евгений\Desktop\Basic_Python\v_333\Scripts>activate.bat
+
+(v_333) (base) C:\Users\Евгений\Desktop\Basic_Python\v_333\Scripts>pip install pillow
+Collecting pillow
+  Using cached https://files.pythonhosted.org/packages/fd/fc/fc1c5fc13d29360a4f8398d4d334030cea18d44f78c73efc08a3e808aa5f/Pillow-8.3.2-cp38-cp38-win_amd64.whl
+Installing collected packages: pillow
+Successfully installed pillow-8.3.2
+WARNING: You are using pip version 19.2.3, however version 21.2.4 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+(v_333) (base) C:\Users\Евгений\Desktop\Basic_Python\v_333\Scripts>deactivate
+(base) C:\Users\Евгений\Desktop\Basic_Python\v_333\Scripts>

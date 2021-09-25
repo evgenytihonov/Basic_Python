@@ -1,5 +1,4 @@
 from requests import get, utils
-from sys import argv
 
 response = utils.get_unicode_from_response(get('http://www.cbr.ru/scripts/XML_daily.asp'))
 
@@ -13,5 +12,5 @@ def currency_rates(code):
 
 
 if __name__ == "__main__":
-    word = argv[1]
-    print(currency_rates(word))
+    print(currency_rates("usd"))
+    print(currency_rates("eur"))

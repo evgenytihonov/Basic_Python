@@ -9,5 +9,9 @@ for item in src:
             break
     if not itemExist:
         uniqueList.append(item)
-
 print(uniqueList)
+
+print('='*40)
+
+uniqueList2 = [i for i in src if src.count(i) == 1]
+print(uniqueList2)
